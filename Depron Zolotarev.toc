@@ -4,8 +4,8 @@
 \beamer@sectionintoc {2}{История исследования}{3}{0}{2}
 \beamer@sectionintoc {3}{Кратко по истории вопроса}{4}{0}{3}
 \beamer@sectionintoc {4}{План доклада}{5}{0}{4}
-\beamer@sectionintoc {5}{ДЭПРОН}{7}{0}{5}
-\beamer@subsectionintoc {5}{1}{Детекторная система}{7}{0}{5}
+\beamer@sectionintoc {5}{ДЭПРОН}{6}{0}{5}
+\beamer@subsectionintoc {5}{1}{Детекторная система}{6}{0}{5}
 \beamer@sectionintoc {6}{Алгоритм обработки данных}{9}{0}{6}
 \beamer@sectionintoc {7}{Доступность данных}{10}{0}{7}
 \beamer@sectionintoc {8}{Результаты без всплесков}{11}{0}{8}

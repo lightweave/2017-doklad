@@ -246,10 +246,10 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-\frametitle{Содержание}
-\tableofcontents
-\end{frame}
+%\begin{frame}
+%\frametitle{Содержание}
+%\tableofcontents
+%\end{frame}
 
 
 \section{ДЭПРОН}
@@ -280,8 +280,9 @@
 	\begin{column}{.5\textwidth}
 		\begin{block}{}
 			% Your image included here
-			Block diagram
-			\includegraphics[width=0.8\textwidth]{images/deproncatia2}
+			Объемная модель
+			
+			\includegraphics[width=0.9\textwidth]{images/deproncatia2}
 		\end{block}
 	\end{column}
 \end{columns}
@@ -311,25 +312,37 @@
 		% Your image included here
 
 
-\begin{figure}[H]
-	\centering
-	%	\fcolorbox{red}{yellow}{\includegraphics[width=0.6\linewidth]{images/pdata}
-	%	\includegraphics[width=0.6\linewidth]{images/adata}}
-	
+\begin{center}
+
 	\includegraphics[width=0.32\linewidth]{images/edata}
 	\includegraphics[width=0.32\linewidth]{images/pdata}
 	\includegraphics[width=0.32\linewidth]{images/adata}
-	\caption{Графики средних пробегов заряженных частиц для алюминия. Представлены величины: ``CSDA range'' --- глубина в приближении непрерывного замедления ``Projected range'' --- среднее значение глубины, на которую заряженная частица проникает в процессе замедления до остановки}
-	\label{fig:rplot01}
-\end{figure}
+\end{center}
 
+	\tiny{Графики средних пробегов заряженных частиц для алюминия. Представлены величины: \\		``CSDA range'' --- глубина в приближении непрерывного замедления \\		``Projected range'' --- среднее значение глубины, на которую заряженная частица проникает в процессе замедления до остановки}
 
 	\end{block}
 \end{column}
 \end{columns}
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+\begin{frame}	
+\frametitle{\insertsection} 
+\framesubtitle{Чувствитльность нейтронных счетчиков, мне кажется не нужна в этой презентации}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{images/neutrons/nsens1}
+	\includegraphics[width=0.6\linewidth]{images/neutrons/nsens2}
+	\caption{Профили чувствительности нейтронных счетчиков по итогам моделирования прибора Дэпрон. }
+	\label{fig:nsens1}
+\end{figure}
+На рисунке \ref{fig:nsens1} показаны гистограммы, отражающие отношение зарегистрированных в счетчиках нейтронов к потоку нейтронов, прошедших через тело счетчика. По определению \ref{eq:sens} эта величина соответствует функции чувствительности. Фактом регистрации нейтрона в детекторе при моделировании считалось энерговыделение в объеме заполняющего газа более 500~кэВ. При сравнении профилей чувствительности не защищенного и окруженного оргстеклом нейтронных детекторов можно заметить что пик чувствительности более защищенного детектора находится на 0,005~эВ, а для защищенного этот пик находится на 0,5~эВ энергии нейтронов.
+
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Алгоритм обработки данных}
 
