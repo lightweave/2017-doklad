@@ -320,14 +320,24 @@
 			
 			\includegraphics[width=0.9\textwidth]{images/deproncatia2}
 		
-			\begin{tikzpicture}[scale=0.5, transform shape]
-			\pic [fill=gray, text=gray, draw=gray] at (6,1.8) {annotated cuboid={width=30, height=1.9, depth=30, units=мм}};
-			\pic [fill=magenta, text=blue, draw=blue] at (5,0) {annotated cuboid={width=10, height=0.3, depth=10, units=мм}};
-			\pic [fill=green, text=green!50!black, draw=green!25!black] at (5,-1.8) {annotated cuboid={width=10, height=0.3, depth=10, units=мм}};
+			\begin{tikzpicture}[scale=0.3, transform shape]
+
+			
+			\pic [fill=red, text=blue, draw=blue] at (6,0.6) {annotated cuboid={width=50, height=0.05, depth=30, units=мм}};
+			
+			\pic [fill=gray, text=blue, draw=gray] at (6,1.4) {annotated cuboid={width=60, height=1.9, depth=60, units=мм}};
+			
+
+			\pic [fill=gray, text=blue, draw=gray] at (6,-1.0) {annotated cuboid={width=50, height=1, depth=30, units=мм}};
+
+			\pic [fill=magenta, text=blue, draw=blue] at (5,0) {annotated cuboid={width=10, height=1, depth=10, units=мм}};
+			
+			
+			\pic [fill=green, text=green!50!black, draw=green!25!black] at (5,-2.0) {annotated cuboid={width=10, height=0.3, depth=10, units=мм}};
 			
 			\draw[|->,semithick] (7,-1.8) -- (7,0);
 			\draw (8,-1.8) node {$z=0$};
-			\draw (8,0) node {$z=18$};
+			\draw (8,0) node {$z=20$};
 			\end{tikzpicture}
 			
 		\end{block}
