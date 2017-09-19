@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2016.3.16)  19 SEP 2017 22:10
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2016.3.16)  20 SEP 2017 00:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2052,9 +2052,15 @@ File: logosinp.png Graphic file (type QTm)
  <use  "logosinp.png" > [4
 
 ]
-File: logosinp.png Graphic file (type QTm)
+File: images/dachevrep.png Graphic file (type QTm)
 
-<use  "logosinp.png" > [5
+<use  "images/dachevrep.png" >
+File: logosinp.png Graphic file (type QTm)
+ <use  "logosinp.png" >
+Overfull \vbox (11.2992pt too high) detected at line 292
+ []
+
+[5
 
 ]
 File: logosinp.png Graphic file (type QTm)
@@ -2062,36 +2068,38 @@ File: logosinp.png Graphic file (type QTm)
 
 ]
 File: images/deproncatia2.png Graphic file (type QTm)
-
-<use  "images/deproncatia2.png" >
+ <use  "images/deproncatia2.png" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [7
+
+<use  "logosinp.png" > [7
 
 ]
 File: images/edata.pdf Graphic file (type QTm)
-
-<use  "images/edata.pdf" >
+ <use  "images/edata.pdf" >
 File: images/pdata.pdf Graphic file (type QTm)
- <use  "images/pdata.pdf" >
-File: images/adata.pdf Graphic file (type QTm)
 
-<use  "images/adata.pdf" >
+<use  "images/pdata.pdf" >
+File: images/adata.pdf Graphic file (type QTm)
+ <use  "images/adata.pdf" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [8
+ <use  "logosinp.png" >
+[8
 
 ]
 File: images/nsens3.pdf Graphic file (type QTm)
-
-<use  "images/nsens3.pdf" >
+ <use  "images/nsens3.pdf" >
 File: images/nsens4.pdf Graphic file (type QTm)
  <use  "images/nsens4.pdf" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" >
-[9
+
+<use  "logosinp.png" > [9
 
 ]
+File: images/Flash/Rplot03.png Graphic file (type QTm)
+ <use  "images/Flash/Rplot03.png" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [10
+
+<use  "logosinp.png" > [10
 
 ]
 File: logosinp.png Graphic file (type QTm)
@@ -2099,8 +2107,8 @@ File: logosinp.png Graphic file (type QTm)
 
 ]
 File: logosinp.png Graphic file (type QTm)
-
-<use  "logosinp.png" > [12
+ <use  "logosinp.png" >
+[12
 
 ]
 File: logosinp.png Graphic file (type QTm)
@@ -2108,18 +2116,18 @@ File: logosinp.png Graphic file (type QTm)
 
 ]
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" >
-[14
+ <use  "logosinp.png" > [14
 
 ]
 File: images/Flash/Rplot03.png Graphic file (type QTm)
- <use  "images/Flash/Rplot03.png" >
+
+<use  "images/Flash/Rplot03.png" >
 File: images/Flash/Rplot01.pdf Graphic file (type QTm)
  <use  "images/Flash/Rplot01.pdf" >
 File: logosinp.png Graphic file (type QTm)
 
 <use  "logosinp.png" >
-Overfull \vbox (3.44101pt too high) detected at line 493
+Overfull \vbox (3.44101pt too high) detected at line 513
  []
 
 [15
@@ -2150,22 +2158,22 @@ File: logosinp.png Graphic file (type QTm)
 
  
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
 (./Depron Zolotarev.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 516.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 516.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 536.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 536.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 516.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 536.
  ) 
 Here is how much of TeX's memory you used:
- 48831 strings out of 493706
- 1087482 string characters out of 6148913
- 1252561 words of memory out of 5000000
- 51304 multiletter control sequences out of 15000+600000
+ 48840 strings out of 493706
+ 1087658 string characters out of 6148913
+ 1252559 words of memory out of 5000000
+ 51312 multiletter control sequences out of 15000+600000
  10590 words of font info for 63 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  56i,16n,79p,10392b,1692s stack positions out of 5000i,500n,10000p,200000b,80000s

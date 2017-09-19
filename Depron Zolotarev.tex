@@ -272,14 +272,23 @@
 \begin{frame}
 \frametitle{\insertsection} 
 
+\begin{columns}[T]
+\begin{column}{.5\textwidth}
+{\tiny 
 По сообщению Dachev T. P. [2009], измеренные абсолютные максимумы мощности дозы	по релятивистским электронам:
 \begin{itemize}
 	\item  304 мкГр/ч за защитой  1,75 г см-2,  Foton M2
 	 \item  2314 мкГр/ч за защитой   0,71 г см2, экранируя в Foton M3 
 	 \item  19 195 мкГр/ч за защитой менее 0,4 г / см2 на МКС (поток составляет 8363 см-2*с-1) .
 \end{itemize}
-
-
+}
+\end{column}
+\begin{column}{.5\textwidth}
+	\begin{center}
+		\includegraphics[width=1\linewidth]{images/dachevrep}
+	\end{center}
+\end{column}
+\end{columns}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -354,20 +363,20 @@
 		
 			\vspace{1cm}
 			
-			\begin{tikzpicture}[scale=0.5, transform shape]
+			\begin{tikzpicture}[scale=0.55, transform shape]
 
 			
-			\pic [fill=red, text=blue, draw=blue] at (6,0.6) {annotated cuboid={width=50, height=0.05, depth=30, units=мм}};
+			\pic [fill=orange, text=blue, draw=blue] at (6,0.6) {annotated cuboid={width=50, height=0.05, depth=30, units=мм}};
 			
 			\pic [fill=gray, text=blue, draw=gray] at (6,1.4) {annotated cuboid={width=60, height=1.9, depth=60, units=мм}};
 			
 
 			\pic [fill=gray, text=blue, draw=gray] at (6,-1.0) {annotated cuboid={width=50, height=1, depth=30, units=мм}};
 
-			\pic [fill=magenta, text=blue, draw=blue] at (5,0) {annotated cuboid={width=10, height=1, depth=10, units=мм}};
+			\pic [fill=brown, text=blue, draw=blue] at (5,0) {annotated cuboid={width=10, height=1, depth=10, units=мм}};
 			
 			
-			\pic [fill=green, text=green!50!black, draw=green!25!black] at (5,-2.0) {annotated cuboid={width=10, height=0.3, depth=10, units=мм}};
+			\pic [fill=brown, text=green!50!black, draw=green!25!black] at (5,-2.0) {annotated cuboid={width=10, height=0.3, depth=10, units=мм}};
 			
 			\draw[|->,semithick] (7,-1.8) -- (7,0);
 			\draw (8,-1.8) node {$z=0$};
@@ -435,7 +444,18 @@
 \begin{frame}	
 	\frametitle{\insertsection} 
 	\framesubtitle{Особенности алгоритма обработки данных для поиска всплесков}
+	\centering
 	
+	\includegraphics[width=0.7\linewidth]{images/Flash/Rplot03.png}
+	
+{\tiny 	Временное распределение скорости счета в зарегистрированных вспышках. Общее число выделенных вспышек за время работы прибора ДЭПРОН достигает 90.
+	
+	
+	 \begin{flushleft}
+	 	Были найдены и выделены возрастания скоростей счета в первом детекторе, превышающие по абсолютной величине 5000~отсчетов в секунду, что соответствует более 800~с\textsuperscript{-1} см\textsuperscript{-1} стер\textsuperscript{-1}.  
+		Величины повышенных потоков, зарегистрированных в первом полупроводниковом детекторе, в среднем в 30-100 раз выше, чем во втором детекторе и при одновременной регистрации в двух детекторах.
+ \end{flushleft}
+}
 \end{frame}
 
 
@@ -445,7 +465,7 @@
 \begin{frame}	
 \frametitle{\insertsection} 
 \framesubtitle{Доступность данных и порядок наземной обработки}
-
+В результате полугода работы прибора ДЭПРОН накоплен большой массив информации - 35 тысяч файлов бинарных данных, общим объемом 141 Мбайт. Эти данные являются сжатыми и после распаковки в человеко-читаемый табличный вид представлены массивом файлов объемом 1,3 Гб, эти данные собраны в файлы по дням года и осуществлена привязка данных к географическим и геомагнитным координатам.
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
