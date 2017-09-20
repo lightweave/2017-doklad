@@ -11,7 +11,7 @@
 \headcommand {\beamer@subsectionpages {2}{2}}
 \headcommand {\slideentry {2}{0}{1}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\sectionentry {3}{Кратко по истории вопроса}{4}{Кратко по истории вопроса}{0}}
+\headcommand {\sectionentry {3}{Истории изучения вопроса}{4}{Истории изучения вопроса}{0}}
 \headcommand {\beamer@sectionpages {3}{3}}
 \headcommand {\beamer@subsectionpages {3}{3}}
 \headcommand {\slideentry {3}{0}{1}{4/4}{}{0}}
@@ -53,28 +53,45 @@
 \headcommand {\beamer@subsectionpages {12}{12}}
 \headcommand {\slideentry {9}{0}{1}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\sectionentry {10}{Географическое распределение всплесков}{14}{Географическое распределение всплесков}{0}}
-\headcommand {\beamer@sectionpages {13}{13}}
-\headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\slideentry {10}{0}{1}{14/14}{}{0}}
+\headcommand {\slideentry {9}{0}{2}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\sectionentry {11}{Связь с параметрами солнечной активности}{15}{Связь с параметрами солнечной активности}{0}}
-\headcommand {\beamer@sectionpages {14}{14}}
-\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {11}{0}{1}{15/15}{}{0}}
+\headcommand {\slideentry {9}{0}{3}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\sectionentry {12}{Дозиметрические характеристики всплесков}{16}{Дозиметрические характеристики всплесков}{0}}
-\headcommand {\beamer@sectionpages {15}{15}}
-\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\slideentry {12}{0}{1}{16/16}{}{0}}
+\headcommand {\slideentry {9}{0}{4}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\sectionentry {13}{Заключение}{17}{Заключение}{0}}
-\headcommand {\beamer@sectionpages {16}{16}}
-\headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\slideentry {13}{0}{1}{17/17}{}{0}}
+\headcommand {\slideentry {9}{0}{5}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@partpages {1}{17}}
-\headcommand {\beamer@subsectionpages {17}{17}}
-\headcommand {\beamer@sectionpages {17}{17}}
-\headcommand {\beamer@documentpages {17}}
-\headcommand {\def \inserttotalframenumber {17}}
+\headcommand {\sectionentry {10}{Географическое распределение всплесков}{18}{Географическое распределение всплесков}{0}}
+\headcommand {\beamer@sectionpages {13}{17}}
+\headcommand {\beamer@subsectionpages {13}{17}}
+\headcommand {\slideentry {10}{0}{1}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\sectionentry {11}{Распределение всплесков в геомагнитных~координатах}{19}{Распределение всплесков в геомагнитных~координатах}{0}}
+\headcommand {\beamer@sectionpages {18}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\slideentry {11}{0}{1}{19/19}{}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\sectionentry {12}{Связь с параметрами солнечной активности}{20}{Связь с параметрами солнечной активности}{0}}
+\headcommand {\beamer@sectionpages {19}{19}}
+\headcommand {\beamer@subsectionpages {19}{19}}
+\headcommand {\slideentry {12}{0}{1}{20/20}{}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\sectionentry {13}{Дозиметрические характеристики всплесков}{21}{Дозиметрические характеристики всплесков}{0}}
+\headcommand {\beamer@sectionpages {20}{20}}
+\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\slideentry {13}{0}{1}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {13}{0}{2}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {13}{0}{3}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\sectionentry {14}{Заключение}{24}{Заключение}{0}}
+\headcommand {\beamer@sectionpages {21}{23}}
+\headcommand {\beamer@subsectionpages {21}{23}}
+\headcommand {\slideentry {14}{0}{1}{24/24}{}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@partpages {1}{24}}
+\headcommand {\beamer@subsectionpages {24}{24}}
+\headcommand {\beamer@sectionpages {24}{24}}
+\headcommand {\beamer@documentpages {24}}
+\headcommand {\def \inserttotalframenumber {24}}
