@@ -164,12 +164,12 @@
 }
 
 
-%
-%\usepackage{enumitem}
-%\usepackage{tikz}
-%\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
-%\begin{enumerate}[label=\protect\circled{\arabic*}]
 
+\usepackage{enumitem}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+%\begin{enumerate}[label=\protect\circled{\arabic*}]
+% кружки можно отменить в отдельном списке с помошью переобозначения:
+%	\def\labelenumi{\arabic{enumi}.}
 
 
 \title{Анализ возрастаний потоков заряженных~частиц в авроральных областях по результатам эксперимента ДЭПРОН}
@@ -224,7 +224,7 @@
 Характерные публикации по теме возрастаний потоков частиц в
 высокоширотных областях:
 
-\begin{enumerate}
+\begin{enumerate}[label=\protect\circled{\arabic*}]
 	\item
 	Вернов С.Н., Чудаков А.Е. \\ Исследования космических лучей и земного корпускулярного излучения при полетах ракет и спутников // УФН. 1960. № 4 (70). C. 585.
 	\item
@@ -297,8 +297,8 @@
 \section{План доклада}\label{header-n26}
 \begin{frame}	
 \frametitle{\insertsection} 
-\begin{enumerate}
-	\def\labelenumi{\arabic{enumi}.}
+\begin{enumerate}[label=\protect\circled{\arabic*}]
+
 	\item
 	Описание прибора ДЭПРОН
 	\item
@@ -338,7 +338,7 @@
 	\begin{column}{.5\textwidth}
 		\begin{block}{	 }		
 		\tiny ДЭПРОН - Дозиметр Электронов, ПРОтонов и Нейтральных частиц 	
-	 		\begin{enumerate}		
+	 		\begin{enumerate}[label=\protect\circled{\arabic*}]
 				\item Корпус --- 1,9 мм алюминия, Д16т;
 				\item  Бериллиевая бронза --- фольга 50 мкм;
 				\item[] Детекторы:				
@@ -626,6 +626,7 @@
 \frametitle{\insertsection} 
 Максимальные мощности дозы во всплесках, по сравнению с максимальными мощностями в полярных областях. 
 
+\colorbox{red}{НУЖНО ПРИВОДИТЬ ОДИН СУТОЧНЫЙ МАКСИМУМ ЗА ВСПЛЕСК}
 \begin{center}
 	\includegraphics[width=0.5\linewidth]{images/dose1flashvsdaymax}
 	\includegraphics[width=0.5\linewidth]{images/dose2flashvsdaymax}
@@ -633,7 +634,7 @@
 {\tiny 
 Синие точки представляют максимумы за один всплеск, а красные максимумы за один день. На левом графике синие точки почти всегда накладываются на красные.
 
-Поэтому  можно обозначить <<Вершинами айсберга>> соотношение максимальных потоков во всплеске и за день. Для второго детектора это правило выполняется только для пятой части случаев. }
+Поэтому  можно обозначить <<Вершинами айсберга>>, то как соотносятся максимальные мощности дозы во всплесках и за день. Для второго детектора такой характер наблюдается только для пятой части случаев. }
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -656,7 +657,10 @@
 
 \begin{frame}	
 \frametitle{\insertsection} 
-
+\begin{enumerate}[label=\protect\circled{\arabic*}]
+	\item Максимальные мощности дозы в время всплесков являются максимумами мощности дозы за день в полярной области для верхнего детектора.
+	\item Суточные мощности дозы испытывают влияние от 
+\end{enumerate}
 
 \end{frame}
 
