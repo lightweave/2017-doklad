@@ -409,15 +409,11 @@
 \end{column}
 \begin{column}{.5\textwidth}
 	\begin{block}{}
-		% Your image included here
-
-
-\begin{center}
-
-	\includegraphics[width=0.5\linewidth]{images/edata}
-	\includegraphics[width=0.5\linewidth]{images/pdata}
-%	\includegraphics[width=0.32\linewidth]{images/adata}
-\end{center}
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{images/edata}
+		\includegraphics[width=0.5\linewidth]{images/pdata}
+	%	\includegraphics[width=0.32\linewidth]{images/adata}
+	\end{center}
 
 	\tiny{Графики средних пробегов заряженных частиц для алюминия. Представлены величины: \\		``CSDA range'' --- глубина в приближении непрерывного замедления \\		``Projected range'' --- среднее значение глубины, на которую заряженная частица проникает в процессе замедления до остановки}
 
@@ -475,7 +471,7 @@
 
 \begin{frame}	
 \frametitle{\insertsection} 
-
+\colorbox{red}{УВЕЛИЧИТЬ ПОДПИСИ КАРТИНОК}
 
 \begin{center}
 		
@@ -493,14 +489,11 @@
 \begin{frame}	
 \frametitle{\insertsection} 
 \framesubtitle{Особенности алгоритма обработки данных для поиска всплесков}
-
 {\tiny Отбор всплесков интенсивности производился по превышению 5000 отсчетов в верхнем детекторе.  }
-
 \begin{center}
 	\includegraphics[width=0.7\linewidth]{images/Rplot11}
 \end{center}
-
-{\tiny Отношение счёта нижнего детектора к счету в верхнем детекторе, в зависимости от значений аппаратного счетчика. }
+{\tiny Отношение счёта нижнего детектора к счету в верхнем детекторе, в зависимости от значений аппаратного~счетчика. }
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -533,12 +526,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}	
 \frametitle{\insertsection} 
-\framesubtitle{Характерные всплески}
+\framesubtitle{Характерный всплеск 1}
 
 
 	\centering
-	\includegraphics[width=0.49\linewidth]{images/depron_sec_log_new11-02-16}
-	\includegraphics[width=0.49\linewidth]{images/depron_sec_log_new11-02-161}
+	\includegraphics[width=0.49\linewidth]{images/flash021116}
+	\includegraphics[width=0.49\linewidth]{images/flash021116big}
 	
 	\tiny{Временной профиль возрастания, зарегистрированный 2 Ноября 2016 года в 00:40 по мировому времени. Он отличается необычно высокой дозой во втором детекторе.
 	}
@@ -547,12 +540,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}	
 \frametitle{\insertsection} 
-\framesubtitle{Характерные всплески}
+\framesubtitle{Характерный всплеск 2}
 
 \tiny{
-	Мы можем считать, что короткие всплески вносят существенный вклад в суммарную дозу в обоих детекторах. Этот вклад более значителен в полярных областях и достигает \colorbox{red}{одного порядка величины для верхнего детектора и половину порядка для нижнего детектора по поглощенной дозе \ref{fig:flashdose1}.  }
+
+	Для всплеска, зарегистрированного в 2016-10-28 21:43:42 --- 21:45:26~UTC поглощенная доза для верхнего детектора превышает 0,35~мГр, это максимальное значение для всех рассмотренных возрастаний. Данный всплеск отличается наибольшей по сравнению с другими всплесками продолжительностью - 105 секунд.}
+
+\begin{columns}
+	\begin{column}[t]{.5\textwidth}
+	\centering 	
+	\includegraphics[width=1\linewidth]{images/flash281016}
 	
-	Для всплеска, зарегистрированного в 2016-10-28 21:43:42 --- 21:45:26UTC поглощенная доза для верхнего детектора превышает 0,35 мГр, это максимальное значение для всех . Данный всплеск отличается наибольшей по сравнению с другими всплесками продолжительностью - 105 секунд.}
+	 Всплеск
+	\end{column}
+	\hfill
+	\begin{column}[t]{.5\textwidth}
+	\includegraphics[width=1\linewidth]{images/anomalycross}
+	
+	\centering Аномалия
+	\end{column}%
+\end{columns}
+\begin{center}
+		
+
+\end{center}
 
 
 \end{frame}
@@ -618,7 +629,6 @@
 	\includegraphics[width=.9\linewidth]{dosevscounth}
 \end{center}
 
-
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -641,7 +651,7 @@
 
 \begin{frame}	
 \frametitle{\insertsection} 
-Суммарные мощности дозы за всплеск, по сравнению с интегральными суточными мощностями в полярных областях. 
+{\tiny Суммарные мощности дозы за всплеск, по сравнению с интегральными суточными мощностями в полярных областях. }
 
  \colorbox{red}{НУЖНО ПРИВОДИТЬ СУТОЧНЫЕ ДОЗЫ ЗА ВСПЛЕСК}
 
@@ -651,6 +661,7 @@
 \end{center}
 
 
+{\tiny Мы можем считать, что короткие всплески вносят существенный вклад в суммарную дозу в обоих детекторах. Этот вклад более значителен в полярных областях и достигает \colorbox{red}{одного порядка величины для верхнего детектора и половину порядка для нижнего детектора по поглощенной дозе}}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Заключение}
