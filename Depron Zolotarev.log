@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2016.10.31)  27 SEP 2017 18:09
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2016.10.31)  28 SEP 2017 16:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2141,13 +2141,23 @@ Overfull \vbox (4.05086pt too high) detected at line 622
 [21
 
 ]
+File: images/dosenorm.png Graphic file (type QTm)
+ <use  "images/dosenorm.png" >
+File: logosinp.png Graphic file (type QTm)
+ <use  "logosinp.png" >
+Overfull \vbox (12.08908pt too high) detected at line 633
+ []
+
+[22
+
+]
 File: images/dosevscounth.pdf Graphic file (type QTm)
  <use  "images/dosevscounth.pdf" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [22
+ <use  "logosinp.png" > [23
 
 ]
-Overfull \hbox (48.06749pt too wide) in paragraph at lines 649--649
+Overfull \hbox (48.06749pt too wide) in paragraph at lines 660--660
 [][][][][][][]  
  []
 
@@ -2157,7 +2167,7 @@ File: images/dose2flashvsdaymax.pdf Graphic file (type QTm)
 
 <use  "images/dose2flashvsdaymax.pdf" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [23
+ <use  "logosinp.png" > [24
 
 ]
 File: images/dose1flashvsdaysum.pdf Graphic file (type QTm)
@@ -2166,20 +2176,20 @@ File: images/dose1flashvsdaysum.pdf Graphic file (type QTm)
 File: images/dose2flashvsdaysum.pdf Graphic file (type QTm)
 
 <use  "images/dose2flashvsdaysum.pdf" >
-Overfull \hbox (23.49529pt too wide) in paragraph at lines 665--665
+Overfull \hbox (23.49529pt too wide) in paragraph at lines 676--676
 [][][][][][]  
  []
 
 File: logosinp.png Graphic file (type QTm)
 <use  "logosinp.png" >
-Overfull \vbox (6.22076pt too high) detected at line 665
+Overfull \vbox (6.22076pt too high) detected at line 676
  []
 
-[24
+[25
 
 ]
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [25
+ <use  "logosinp.png" > [26
 
 ]
 \tf@nav=\write6
@@ -2193,24 +2203,24 @@ File: logosinp.png Graphic file (type QTm)
 
  
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 678.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 678.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 689.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 689.
 (./Depron Zolotarev.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 678.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 678.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 689.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 689.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 678.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 689.
  ) 
 Here is how much of TeX's memory you used:
- 50244 strings out of 493589
- 1113814 string characters out of 6146759
- 1273031 words of memory out of 5000000
- 52768 multiletter control sequences out of 15000+600000
+ 50251 strings out of 493589
+ 1113890 string characters out of 6146759
+ 1272199 words of memory out of 5000000
+ 52774 multiletter control sequences out of 15000+600000
  9785 words of font info for 61 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  64i,16n,98p,10381b,1675s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Depron Zolotarev.pdf (25 pages).
+Output written on Depron Zolotarev.pdf (26 pages).
