@@ -174,7 +174,7 @@
 
 \title{Анализ возрастаний потоков заряженных~частиц в авроральных областях по результатам эксперимента ДЭПРОН}
 \subtitle{Семинар НИИЯФ ОКН}
-\author[Иван~Золотарев] {И.А. Золотарев, В.В. Бенгин, О.Ю. Нечаев,М.И. Панасюк, В.Л. Петров, И.В. Яшин, Н.Н. Веденкин, А.М. Амелюшкин } 
+\author[Иван~Золотарев] {И.А. Золотарев, В.В. Бенгин, О.Ю. Нечаев,М.И. Панасюк, В.Л. Петров, И.В. Яшин,  А.М. Амелюшкин } 
 
 \date{\today}
 \institute[SINP MSU]{Skobeltsyn Institute of Nuclear Physics \\M.V. Lomonosov Moscow State University}
@@ -211,7 +211,7 @@
 \centering
 \includegraphics[width=0.55\linewidth]{images/depronseclognew}
 
-Временные серии данных показывают всплеск  и прохождение отрогов пояса или
+Временные серии данных показывают всплеск   и прохождение отрогов пояса или
 аномалии
 \end{frame}
 
@@ -263,9 +263,9 @@
 
  
 \begin{itemize}
-	\item Высыпания электронов по данным POES, скорее всего вызваны волнами EMIC, обнаруживаемыми на поверхности 
-	\item EMIC-IPDP неоднократно срабатывал при одном MLT, тесно связанном с POES-обнаруженными осадками электронов
-	\item Волны EMIC, обнаруженные через POES-обнаруженное электронное осаждение, представляют собой в основном гелиевые полосы IPDPwaves
+	\item Высыпания электронов по данным POES, скорее всего вызваны волнами EMIC, обнаруживаемыми на поверхности;
+	\item EMIC-IPDP неоднократно срабатывал при  MLT,  совпадающим с обнаруженными на POES  высыпаниями электронов;
+	\item Волны EMIC, обнаруженные при  высыпаниях электронов, представляют собой в основном волны полосы IPDP.
 \end{itemize}
 }
 \end{frame}
@@ -363,19 +363,24 @@
 			% Your image included here
 			\tiny Схема расположения детекторов и защиты
 		
-			\vspace{1cm}
+%			\vspace{0.5cm}
+			\includegraphics[width=0.2\textwidth]{images/cartesiancoordinatesystem.png}
 			
 			\begin{tikzpicture}[scale=0.55, transform shape]
-
+			\pic [fill=gray, text=blue, draw=gray] at (6,-3.0) {annotated cuboid={width=60, height=1.5, depth=60, units=мм}};
 			
 			\pic [fill=orange, text=blue, draw=blue] at (6,0.6) {annotated cuboid={width=50, height=0.05, depth=30, units=мм}};
 			
+			\pic [fill=orange, text=blue, draw=blue] at (6,0.6) {annotated cuboid={width=50, height=0.05, depth=30, units=мм}};
+			
+			\pic [fill=orange, text=blue, draw=blue] at (6,-1.4) {annotated cuboid={width=50, height=0.05, depth=30, units=мм}};
+				
 			\pic [fill=gray, text=blue, draw=gray] at (6,1.4) {annotated cuboid={width=60, height=1.9, depth=60, units=мм}};
 			
 
 			\pic [fill=gray, text=blue, draw=gray] at (6,-1.0) {annotated cuboid={width=50, height=1, depth=30, units=мм}};
 
-			\pic [fill=brown, text=blue, draw=blue] at (5,0) {annotated cuboid={width=10, height=1, depth=10, units=мм}};
+			\pic [fill=brown, text=blue, draw=blue] at (5,0) {annotated cuboid={width=10, height=0.3, depth=10, units=мм}};
 			
 			
 			\pic [fill=brown, text=green!50!black, draw=green!25!black] at (5,-2.0) {annotated cuboid={width=10, height=0.3, depth=10, units=мм}};
@@ -384,6 +389,13 @@
 			\draw (8,-1.8) node {$z=0$};
 			\draw (8,0) node {$z=20$};
 			\end{tikzpicture}
+		{\tiny 
+			Массовая защита по осям прибора, г·см-2 :
+		\begin{tabular}{l|c|c|c|c|c}
+			+ Х & -Х  &  +Y  & -Y  & +Z  & -Z   \\ \hline
+			1,1 & 4,0 & >8,0 & 2,7 & 1,6 & 4,3 \\
+		\end{tabular} 
+	}
 			
 		\end{block}
 	\end{column}
@@ -468,13 +480,43 @@
 	\includegraphics[width=1\linewidth]{images/timegraph}
 \end{center}
 \end{frame}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Результаты без всплесков}
+
+\section{Разделение участков траектории}\label{header-n0}
+\begin{frame}	
+
+\frametitle{\insertsection} 
+
+\centering
+\includegraphics[width=0.55\linewidth]{images/depronseclognew3}
+
+{\tiny 
+Временные серии с выделением прохождений аномалии и отрогов внешнего пояса.
+
+ Далее разделение проводилось автоматически по геомагнитным координатам:\\  аномалия ($ b < 0.21 $) и отроги внешнего пояса ($ 3 < L < 7 $), остальное --- регулярный полет по орбите.}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Результаты измерений дозиметра}
+\subsection{Интегральные дозы}
 
 \begin{frame}	
 \frametitle{\insertsection} 
+\framesubtitle{\insertsubsection} 
 
+\begin{center}
+	\includegraphics[width=0.5\linewidth]{ressumdaydose1}
+	\includegraphics[width=0.5\linewidth]{ressumdaydose2}
+\end{center}
+
+{\tiny Интегральные суточные дозы в аномалии и в полярных областях. Каждая точка представляет один день. 
+	
+}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Максимальные мощности дозы}
+\begin{frame}	
+\frametitle{\insertsection} 
+\framesubtitle{\insertsubsection} 
 
 \begin{center}
 		
@@ -498,7 +540,7 @@ $ ГКЛ $	& 7,2 & 2,2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}	
 \frametitle{\insertsection} 
-
+\framesubtitle{\insertsubsection} 
 
 \begin{center}
 	\includegraphics[width=0.6\linewidth]{images/resmaxdosepolaranomboth}
@@ -525,7 +567,7 @@ $ Авроральная зона $	& 2444 & 244 \\
 $ ГКЛ $	& 733 & 45
 \end{array} \] }
 \begin{center}
-	\includegraphics[width=0.7\linewidth]{images/resmaxcountpolaranomboth}
+	\includegraphics[width=0.45\linewidth]{images/resmaxcountpolaranomboth}
 \end{center}
 
 \end{frame}
@@ -626,28 +668,40 @@ $ ГКЛ $	& 733 & 45
 
 \begin{frame}	
 \frametitle{\insertsection} 
-
-{\tiny Вспышки наблюдаются в основном с 21 часа и по мере приближения к полночи их число уменьшается.}
-
-	\centering
-	\includegraphics[width=0.49\linewidth]{images/Rplot020}
-	\includegraphics[width=0.49\linewidth, trim={0 1cm 0 0}, clip]{images/Rplot14}
-	
-	\tiny{Слева: Плотность вероятности наблюдения различных значений магнитного локального времени в точках с координатами пролета спутника Ломоносов за период времени в одни сутки для полярных областей. \\Справа: Магнитное локальное время для зарегистрированных за все время всплесков.}
+{\tiny Всплески наблюдаются в основном с 21 часа и по мере приближения к полночи их число уменьшается. 	Распределение сильно отличается от MLT наблюдаемых при прохождениях авроральных областей.}
+	\includegraphics[width=0.38\linewidth,trim={0 0 3.2cm 0}, clip]{images/flashmltn}
+	\includegraphics[width=0.51\linewidth]{images/flashmlts}\\	
+	\tiny{Магнитное локальное время для зарегистрированных за все время всплесков.}
 
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Распределение пролетов авроральной области в геомагнитных~координатах}
 
+\begin{frame}	
+\frametitle{\insertsection} 
+
+\includegraphics[width=0.3\linewidth]{images/daymltn}
+\includegraphics[width=0.3\linewidth]{images/daymlts}
+\includegraphics[width=0.38\linewidth]{images/Rplot020}
+%\includegraphics[width=0.3\linewidth]{images/Rplot020}	\\
+
+{ Наблюдения различных значений магнитного локального времени в точках с координатами пролета спутника Ломоносов за период времени в одни сутки для полярных областей. 
+}
+
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Связь с параметрами солнечной активности}
 
 \begin{frame}	
 \frametitle{\insertsection} 
-\centering
-
-\includegraphics[width=0.7\linewidth, trim={0 2cm 0 0}, clip]{images/Flash/Rplot03.png}
-
-\includegraphics[width=0.7\linewidth, trim={0 1.5cm 0 1cm}, clip]{images/Flash/Rplot01}
-
+%\centering
+%
+%\includegraphics[width=0.7\linewidth, trim={5 2cm 0 0}, clip]{images/Flash/Rplot03.png}
+%
+%\includegraphics[width=0.7\linewidth, trim={0 1.5cm 0 1cm}, clip]{images/Flash/Rplot01}
+\begin{center}
+	\includegraphics[width=0.55\linewidth]{images/flashAEbz}
+\end{center}
 \tiny{Временное распределение зарегистрированных всплесков. Общее число выделенных всплесков за время работы прибора ДЭПРОН достигает 90.\\ Второй график показывает вариации индекса AE, при отрицательном Bz. Данные предоставлены сервисом  \href{https://omniweb.gsfc.nasa.gov/}{OMNIweb}.}
 
 \end{frame}
@@ -708,12 +762,25 @@ $ ГКЛ $	& 733 & 45
 
 
 \begin{center}
-	\includegraphics[width=0.5\linewidth]{images/ressumdosepolarflash1}
-	\includegraphics[width=0.5\linewidth]{images/ressumdosepolarflash2}
+	\includegraphics[width=0.5\linewidth]{images/ressumdosepolarflash1sci}
+	\includegraphics[width=0.5\linewidth]{images/ressumdosepolarflash2sci}
 \end{center}
 
 
-{\tiny Мы можем считать, что короткие всплески вносят существенный вклад в суммарную дозу в обоих детекторах. Этот вклад более значителен в полярных областях и достигает \colorbox{red}{одного порядка величины для верхнего детектора и половину порядка для нижнего детектора по поглощенной дозе}}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}	
+\frametitle{\insertsection} 
+{\tiny Суммарные мощности дозы за всплеск, по сравнению с интегральными суточными мощностями в полярных областях. }
+
+
+\begin{center}
+	\includegraphics[width=0.5\linewidth]{images/ressumdosepolarflash1lin}
+	\includegraphics[width=0.5\linewidth]{images/ressumdosepolarflash2lin}
+\end{center}
+
+
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -727,7 +794,7 @@ $ ГКЛ $	& 733 & 45
 \end{center}
 
 
-{\tiny Мы можем считать, что короткие всплески вносят существенный вклад в суммарную дозу в обоих детекторах. Этот вклад более значителен в полярных областях и достигает \colorbox{red}{одного порядка величины для верхнего детектора и половину порядка для нижнего детектора по поглощенной дозе}}
+{\tiny Мы можем утверждать, что короткие всплески вносят существенный вклад в суммарную дозу в обоих детекторах. Этот вклад более значителен в полярных областях и достигает четверти величины для верхнего детектора}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Заключение}
@@ -735,8 +802,11 @@ $ ГКЛ $	& 733 & 45
 \begin{frame}	
 \frametitle{\insertsection} 
 \begin{enumerate}[label=\protect\circled{\arabic*}]
-	\item Максимальные мощности дозы в время всплесков являются максимумами мощности дозы за день в полярной области для верхнего детектора.
-	\item Суточные мощности дозы испытывают влияние от 
+	\item Всплески наблюдаются в основном с 21 часа и по мере приближения к полночи их число уменьшается; 	
+	\item Наблюдаются ассиметрия "утро-вечер" в регистрации всплесков;
+	\item Максимальные мощности дозы в время всплесков являются максимумами мощности дозы за день в полярной области для обоих детекторов;
+	\item Суточные дозы в авроральных областях испытывают увеличение более чем в 5 раз, совпадающее по времени с регистрацией всплесков;
+	\item Вклад в суточные дозы в авроральных областях от всплесков не превышает 25\%.
 \end{enumerate}
 
 \end{frame}

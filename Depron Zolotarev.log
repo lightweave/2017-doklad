@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2016.10.31)  2 OCT 2017 14:31
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2016.10.31)  10 OCT 2017 13:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1688,7 +1688,11 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
 
-(./Depron Zolotarev.aux)
+(./Depron Zolotarev.aux
+
+LaTeX Warning: Label `header-n0' multiply defined.
+
+)
 \openout1 = `"Depron Zolotarev.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 193.
@@ -2010,45 +2014,64 @@ File: logosinp.png Graphic file (type QTm)
 ]
 File: images/deproncatia2.png Graphic file (type QTm)
  <use  "images/deproncatia2.png" >
-File: logosinp.png Graphic file (type QTm)
+File: images/cartesiancoordinatesystem.png Graphic file (type QTm)
 
-<use  "logosinp.png" > [7
+<use  "images/cartesiancoordinatesystem.png" >
+File: logosinp.png Graphic file (type QTm)
+ <use  "logosinp.png" > [7
 
 ]
 File: images/edata.pdf Graphic file (type QTm)
- <use  "images/edata.pdf" >
-File: images/pdata.pdf Graphic file (type QTm)
 
-<use  "images/pdata.pdf" >
+<use  "images/edata.pdf" >
+File: images/pdata.pdf Graphic file (type QTm)
+ <use  "images/pdata.pdf" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [8
+ <use  "logosinp.png" >
+[8
 
 ]
 File: images/nsens3.pdf Graphic file (type QTm)
-
-<use  "images/nsens3.pdf" >
+ <use  "images/nsens3.pdf" >
 File: images/nsens4.pdf Graphic file (type QTm)
  <use  "images/nsens4.pdf" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" >
-[9
+
+<use  "logosinp.png" > [9
 
 ]
 File: images/Flash/Rplot03.png Graphic file (type QTm)
  <use  "images/Flash/Rplot03.png" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [10
+
+<use  "logosinp.png" > [10
 
 ]
 File: images/timegraph.png Graphic file (type QTm)
-
-<use  "images/timegraph.png" >
+ <use  "images/timegraph.png" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" >
-Overfull \vbox (12.87546pt too high) detected at line 470
+
+<use  "logosinp.png" >
+Overfull \vbox (12.87546pt too high) detected at line 482
  []
 
 [11
+
+]
+File: images/depronseclognew3.png Graphic file (type QTm)
+ <use  "images/depronseclognew3.png" >
+File: logosinp.png Graphic file (type QTm)
+ <use  "logosinp.png" > [12
+
+]
+File: images/ressumdaydose1.png Graphic file (type QTm)
+
+<use  "images/ressumdaydose1.png" >
+File: images/ressumdaydose2.png Graphic file (type QTm)
+ <use  "images/ressumdaydose2.png" >
+File: logosinp.png Graphic file (type QTm)
+
+<use  "logosinp.png" > [13
 
 ]
 File: images/resmaxdosepolaranom1.png Graphic file (type QTm)
@@ -2058,30 +2081,30 @@ File: images/resmaxdosepolaranom2.png Graphic file (type QTm)
 <use  "images/resmaxdosepolaranom2.png" >
 File: logosinp.png Graphic file (type QTm)
  <use  "logosinp.png" >
-Overfull \vbox (5.24661pt too high) detected at line 495
+Overfull \vbox (5.24661pt too high) detected at line 537
  []
 
-[12
+[14
 
 ]
 File: images/resmaxdosepolaranomboth.png Graphic file (type QTm)
  <use  "images/resmaxdosepolaranomboth.png" >
 File: logosinp.png Graphic file (type QTm)
  <use  "logosinp.png" >
-Overfull \vbox (4.23833pt too high) detected at line 510
+Overfull \vbox (4.23833pt too high) detected at line 552
  []
 
-[13
+[15
 
 ]
 File: images/resmaxcountpolaranomboth.png Graphic file (type QTm)
  <use  "images/resmaxcountpolaranomboth.png" >
 File: logosinp.png Graphic file (type QTm)
  <use  "logosinp.png" >
-Overfull \vbox (82.36676pt too high) detected at line 531
+Overfull \vbox (5.54463pt too high) detected at line 573
  []
 
-[14
+[16
 
 ]
 File: images/Rplot04.png Graphic file (type QTm)
@@ -2090,14 +2113,14 @@ File: images/Rplot11.png Graphic file (type QTm)
  <use  "images/Rplot11.png" >
 File: logosinp.png Graphic file (type QTm)
 
-<use  "logosinp.png" > [15
+<use  "logosinp.png" > [17
 
 ]
 File: images/Rplot12.png Graphic file (type QTm)
  <use  "images/Rplot12.png" >
 File: logosinp.png Graphic file (type QTm)
 
-<use  "logosinp.png" > [16
+<use  "logosinp.png" > [18
 
 ]
 File: images/flash021116.png Graphic file (type QTm)
@@ -2106,7 +2129,7 @@ File: images/flash021116big.png Graphic file (type QTm)
 
 <use  "images/flash021116big.png" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [17
+ <use  "logosinp.png" > [19
 
 ]
 File: images/flash281016.png Graphic file (type QTm)
@@ -2116,66 +2139,78 @@ File: images/anomalycross.png Graphic file (type QTm)
  <use  "images/anomalycross.png" >
 File: logosinp.png Graphic file (type QTm)
 
-<use  "logosinp.png" > [18
+<use  "logosinp.png" > [20
 
 ]
 File: images/flashmap.pdf Graphic file (type QTm)
  <use  "images/flashmap.pdf" >
-Overfull \hbox (30.73085pt too wide) in paragraph at lines 622--622
+Overfull \hbox (30.73085pt too wide) in paragraph at lines 664--664
  [] 
  []
 
 File: logosinp.png Graphic file (type QTm)
-<use  "logosinp.png" > [19
+<use  "logosinp.png" > [21
 
 ]
-File: images/Rplot020.png Graphic file (type QTm)
- <use  "images/Rplot020.png" >
-File: images/Rplot14.png Graphic file (type QTm)
+File: images/flashmltn.png Graphic file (type QTm)
+ <use  "images/flashmltn.png" >
+File: images/flashmlts.png Graphic file (type QTm)
 
-<use  "images/Rplot14.png" >
+<use  "images/flashmlts.png" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [20
-
-]
-File: images/Flash/Rplot03.png Graphic file (type QTm)
-
-<use  "images/Flash/Rplot03.png" >
-File: images/Flash/Rplot01.pdf Graphic file (type QTm)
- <use  "images/Flash/Rplot01.pdf" >
-File: logosinp.png Graphic file (type QTm)
-
-<use  "logosinp.png" >
-Overfull \vbox (3.44101pt too high) detected at line 653
+ <use  "logosinp.png" >
+Overfull \vbox (1.17699pt too high) detected at line 676
  []
 
-[21
+[22
+
+]
+File: images/daymltn.png Graphic file (type QTm)
+ <use  "images/daymltn.png" >
+File: images/daymlts.png Graphic file (type QTm)
+ <use  "images/daymlts.png" >
+File: images/Rplot020.png Graphic file (type QTm)
+
+<use  "images/Rplot020.png" >
+File: logosinp.png Graphic file (type QTm)
+ <use  "logosinp.png" > [23
+
+]
+File: images/flashAEbz.png Graphic file (type QTm)
+
+<use  "images/flashAEbz.png" >
+File: logosinp.png Graphic file (type QTm)
+ <use  "logosinp.png" >
+Overfull \vbox (1.75124pt too high) detected at line 707
+ []
+
+[24
 
 ]
 File: images/dose2vsdose1.pdf Graphic file (type QTm)
  <use  "images/dose2vsdose1.pdf" >
 File: logosinp.png Graphic file (type QTm)
  <use  "logosinp.png" >
-Overfull \vbox (4.05086pt too high) detected at line 664
+Overfull \vbox (4.05086pt too high) detected at line 718
  []
 
-[22
+[25
 
 ]
 File: images/dosenorm.png Graphic file (type QTm)
  <use  "images/dosenorm.png" >
 File: logosinp.png Graphic file (type QTm)
  <use  "logosinp.png" >
-Overfull \vbox (12.08908pt too high) detected at line 675
+Overfull \vbox (12.08908pt too high) detected at line 729
  []
 
-[23
+[26
 
 ]
 File: images/dosevscounth.pdf Graphic file (type QTm)
  <use  "images/dosevscounth.pdf" >
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [24
+ <use  "logosinp.png" > [27
 
 ]
 File: images/resmaxpolarflash.png Graphic file (type QTm)
@@ -2186,45 +2221,44 @@ File: images/resmaxpolarflash2.png Graphic file (type QTm)
 File: logosinp.png Graphic file (type QTm)
 
 <use  "logosinp.png" >
-Overfull \vbox (30.15988pt too high) detected at line 702
+Overfull \vbox (30.15988pt too high) detected at line 756
  []
 
-[25
+[28
 
 ]
-File: images/ressumdosepolarflash1.png Graphic file (type QTm)
- <use  "images/ressumdosepolarflash1.png" >
-File: images/ressumdosepolarflash2.png Graphic file (type QTm)
+File: images/ressumdosepolarflash1sci.png Graphic file (type QTm)
+ <use  "images/ressumdosepolarflash1sci.png" >
+File: images/ressumdosepolarflash2sci.png Graphic file (type QTm)
 
-<use  "images/ressumdosepolarflash2.png" >
-Overfull \hbox (23.49529pt too wide) in paragraph at lines 717--717
-[][][][][][]  
- []
-
+<use  "images/ressumdosepolarflash2sci.png" >
 File: logosinp.png Graphic file (type QTm)
-<use  "logosinp.png" >
-Overfull \vbox (30.6541pt too high) detected at line 717
- []
+ <use  "logosinp.png" > [29
 
-[26
+]
+File: images/ressumdosepolarflash1lin.png Graphic file (type QTm)
+
+<use  "images/ressumdosepolarflash1lin.png" >
+File: images/ressumdosepolarflash2lin.png Graphic file (type QTm)
+
+<use  "images/ressumdosepolarflash2lin.png" >
+File: logosinp.png Graphic file (type QTm)
+ <use  "logosinp.png" > [30
 
 ]
 File: images/ressumdoseratio.png Graphic file (type QTm)
- <use  "images/ressumdoseratio.png" >
-Overfull \hbox (23.49529pt too wide) in paragraph at lines 731--731
-[][][][][][]  
- []
 
+<use  "images/ressumdoseratio.png" >
 File: logosinp.png Graphic file (type QTm)
-<use  "logosinp.png" >
-Overfull \vbox (48.97466pt too high) detected at line 731
+ <use  "logosinp.png" >
+Overfull \vbox (39.95721pt too high) detected at line 798
  []
 
-[27
+[31
 
 ]
 File: logosinp.png Graphic file (type QTm)
- <use  "logosinp.png" > [28
+ <use  "logosinp.png" > [32
 
 ]
 \tf@nav=\write6
@@ -2238,24 +2272,27 @@ File: logosinp.png Graphic file (type QTm)
 
  
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 744.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 744.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 814.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 814.
 (./Depron Zolotarev.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 744.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 744.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 814.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 814.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 744.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 814.
  ) 
 Here is how much of TeX's memory you used:
- 50268 strings out of 493589
- 1114313 string characters out of 6146759
- 1272294 words of memory out of 5000000
- 52787 multiletter control sequences out of 15000+600000
+ 50315 strings out of 493589
+ 1115060 string characters out of 6146759
+ 1295613 words of memory out of 5000000
+ 52825 multiletter control sequences out of 15000+600000
  9785 words of font info for 61 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 64i,16n,98p,10381b,1675s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,98p,10381b,1689s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Depron Zolotarev.pdf (28 pages).
+Output written on Depron Zolotarev.pdf (32 pages).
